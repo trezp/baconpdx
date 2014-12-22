@@ -1,0 +1,63 @@
+/*************SMALL SCREEN **************/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+#wrapper {
+	width: 100%;
+	margin: 0;
+}
+#main-head {
+	margin-bottom: 0;
+	text-align: center;
+}
+#body{
+	width: 100%;
+}
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#nav li {
+	display: block;
+	width: 100%;
+	padding: 2.5%;
+
+}
+
+#header {
+	width: 100%;
+	margin: auto;
+}
+}
+
+/*************LARGE SCREEN **************/
+@media only screen 
+and (min-device-width : 768px) {
+
+#wrapper {
+	width: 60%;
+	margin: auto;
+}
+#main-head {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#nav {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#nav li {
+	display: inline;
+	padding: 2.5%;
+
+}
+
